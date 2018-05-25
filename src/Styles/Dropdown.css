@@ -1,0 +1,16 @@
+.dropdown {
+    margin-left:7px;     
+    display: inline-block;
+    text-align: right;
+    direction: rtl;
+    padding: 7px;
+    /* border: 2px dashed violet; */
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .dropdown {
+        display: none;
+    }
+}

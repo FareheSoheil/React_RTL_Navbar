@@ -1,0 +1,42 @@
+nav{
+    padding: 15px; 
+    padding-right: 45px;
+    text-align: right;
+    direction: rtl;
+}
+
+nav * {
+    font-family: 'Samim';
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: extra-expanded;
+    display: inline-block;
+}
+
+.inverse {
+    background-color : #1B2631;
+}
+.inverse * {
+    color: white ;
+}
+.light {
+    background-color: #D0D3D4;
+}
+.light * {
+    color: #1B2631;
+}
+
+.hide{
+    display: none;
+    border: 2px solid yellow !important;
+}
+
+.show *{
+    display: block !important;
+    border-bottom: 1px solid rgba(255,255,255, 0.1); 
+    transition: height 2s;
+}
+
+@media screen and (max-width: 992px) {
+
+}
