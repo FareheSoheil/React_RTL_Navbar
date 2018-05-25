@@ -1,8 +1,13 @@
 .cardContainer {
     border: 2px solid saddlebrown;
+    padding-top: 50px;
+    
     /* text-align: center; */
     padding-right: 12%;
     /* padding-bottom: 4%; */
     
     /* align-items: center */
+}
+.cardContainer * {
+    font-family: 'samim' !important;
 }
