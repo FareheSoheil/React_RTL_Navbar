@@ -1,0 +1,12 @@
+.card {
+    max-width: 80%;
+    height: 400px;
+    border-radius: 100px;
+    border: .08em solid rgba(27, 38, 49, 0.801); 
+    /* background-color:; */
+};
+.media {
+    /* height: 100px; */
+    /* padding-top: 56.25%; */
+    border: .08em solid  rgba(255, 193, 203, 0.363); 
+};
