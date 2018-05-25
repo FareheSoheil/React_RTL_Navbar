@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Styles/Toggleicon.css'
-import menuicon from '../Icons/menuicon.png'
+import '../../Styles/Navbar/Toggleicon.css'
+import menuicon from '../../Icons/menuicon.png'
 
 class Toggleicon extends React.Component {
     constructor(props) {

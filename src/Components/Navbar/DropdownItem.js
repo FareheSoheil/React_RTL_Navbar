@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Styles/DropdownItem.css'
-import carret from '../Icons/dropdownicon.png'
+import '../../Styles/Navbar/DropdownItem.css'
+import carret from '../../Icons/dropdownicon.png'
 
 class DropdownItem extends React.Component {
     render(props) {

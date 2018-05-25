@@ -1,10 +1,10 @@
 import React from 'react';
-import companyLogo from '../Icons/cn611.png'
+import companyLogo from '../../Icons/cn611.png'
 import NavItem from './NavItem.js';
 import Toggleicon from './Toggleicon.js';
 import Brand from './NavbarBrand.js'
-import '../Styles/Navbar.css'
-import '../Styles/samimFont.css'
+import '../../Styles/Navbar/Navbar.css'
+import '../../Styles/samimFont.css'
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -45,7 +45,6 @@ class NavBar extends React.Component {
 }
   render() {
     const className = this.menuMananger();
-    alert ("class name is : "+className);
     return (
       <nav className="inverse">
         <Toggleicon className="toggle" toggleMenu={this.toggleMenu}> toggle icon</Toggleicon>

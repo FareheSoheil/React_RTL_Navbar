@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FAB } from 'react-material-design';  
-import Navbar from './Components/Navbar.js';
+import Navbar from './Components/Navbar/Navbar.js';
 import  './Styles/global.css'
 class App extends Component {
   render() {

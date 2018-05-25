@@ -1,7 +1,7 @@
 import React from 'react';
 import  {Navbar , Nav , NavItem , NavDropdown , MenuItem} from 'react-bootstrap'
 
-import '../Styles/navbar2.css'
+import '../../Styles/Navbar/navbar2.css'
 
 class NavbarTwo extends React.Component {
     render() {
