@@ -14,7 +14,6 @@ class Toggleicon extends React.Component {
     }
     toggle() {
         this.setState({clicked: !this.state.clicked});
-        // window.alert("in toggle class : " + this.state.clicked);
         this.toggleMenu();
     }
     render(props) {

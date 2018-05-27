@@ -1,23 +1,24 @@
 .navItem {
+    padding: 20px;
+    margin-right: 5px;
     margin-right:7px;     
     display: inline-block;
-    text-align: right;
     direction: rtl;
-    padding: 7px;
+    padding: 12px;
     background-color: inherit;
     cursor: pointer;
 }
+.navItem a  {
+    text-decoration:none !important;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
 
-.navItem:hover {
+.navItem a:hover {
     backface-visibility: unset;
     color: pink;
     font-size: 19px;
     opacity: .75;
     transition:  font-size .55s , opacity 0.5s linear;
-}
-@media screen and (max-width: 992px) {
-    .navItem {
-        /* display: none; */
-    }
-
 }

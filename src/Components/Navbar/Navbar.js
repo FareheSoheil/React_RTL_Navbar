@@ -50,10 +50,10 @@ class NavBar extends React.Component {
         <Toggleicon className="toggle" toggleMenu={this.toggleMenu}> toggle icon</Toggleicon>
         <Brand src={companyLogo}/> 
         <div className = {className} >
-          <NavItem>محصول</NavItem>
-          <NavItem>معرفی</NavItem>
-          <NavItem>ارتباط با ما</NavItem>
-          <NavItem>درباره ی ما</NavItem>
+          <NavItem url='/Product'>محصول</NavItem>
+          <NavItem url='/Introduction'>معرفی</NavItem>
+          <NavItem url='/ContactUs'>ارتباط با ما</NavItem>
+          <NavItem url='/AboutUs'>درباره ی ما</NavItem>
         </div>
       </nav>
     );

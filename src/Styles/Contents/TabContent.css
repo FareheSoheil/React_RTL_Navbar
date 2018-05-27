@@ -1,7 +1,7 @@
 .card {
     max-width: 70%;
     height: 400px;
-    border-radius: 100px;
+    border-radius: 10px !important;
     border: .05em solid rgba(27, 38, 49, 0.801); 
 }
 .media {
@@ -31,4 +31,14 @@
     border-radius: 6px;
     font-size: 12px !important;
     color:  rgba(27, 38, 49, 0.801); 
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        max-width: 80%;
+        height: 400px;
+        border-radius: 100px;
+        border: .05em solid rgba(27, 38, 49, 0.801); 
+    }
+    
 }

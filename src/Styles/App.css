@@ -1,7 +1,20 @@
 .cardContainer {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     padding-right: 23%;
+    height: auto;
+
 }
 .cardContainer * {
     font-family: 'samim' !important;
+}
+
+@media screen and (max-width: 992px) {
+    .cardContainer {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-right: 18%;
+        height: auto;
+    
+    }
 }
