@@ -2,16 +2,16 @@ import React,{Component} from 'react';
 import TabContent from './TabContent'
 
 
-class ContactUs extends Component {
+class AboutUs extends Component {
     render() {
         return (
             <TabContent 
-            title='ارتباط با ما'
-            desc= 'با آدرس زیر می توانید ،با ما در ارتباط باشید ' 
+            title='درباره ی ما'
+            desc= 'گروه محصولات بهداشتی ibotta با بیست سال ............ ' 
             btnStr= 'اشتراک گذاری'
             />
         );
     }
 }
 
-export default ContactUs;
+export default AboutUs;

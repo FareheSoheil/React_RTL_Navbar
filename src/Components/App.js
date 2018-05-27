@@ -1,26 +1,44 @@
 import React, { Component } from 'react'; 
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+
 import Navbar from './Navbar/Navbar.js';
-import Content from './Contents/contactUs.js'
+import ContactUs from './Contents/ContactUs';
+import AboutUs from './Contents/AboutUs';
+import Introduction from './Contents/Introduction';
+import Product from './Contents/Product';
+import Home  from './Contents/Home';
+
 import  '../Styles/global.css'
 import  '../Styles/App.css'
 import '../Styles/samimFont.css'
+
 class App extends Component {
   render() {
     return (      
       <div className="App ">
         <Navbar /> 
         <div className="cardContainer">
-          <Content  
-            title='ارتباط با ما'
-            desc= 'با اأرس زیر می توانید ،با ما در ارتباط باشید ' 
-            imageName = "cn4"
-          />
+          <Home />
+          {/* <AboutUs /> */}
+          {/* <Introduction /> */}
         </div>
-        {/* <div>content</div> */}
-        {/* <FAB
-        location="floating-bottom-right"
-        icon="create"
-    />, */}
+        <HashRouter>
+        <div>
+          <h1>Simple SPA</h1>
+          <ul className="header">
+            <li><a href="/">Home</a></li>
+            <li><a href="/stuff">Stuff</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+          <div className="content">
+             
+          </div>
+        </div>
+      </HashRouter>
       </div>
     );
   }

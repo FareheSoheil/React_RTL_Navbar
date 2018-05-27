@@ -1,0 +1,34 @@
+.card {
+    max-width: 70%;
+    height: 400px;
+    border-radius: 100px;
+    border: .05em solid rgba(27, 38, 49, 0.801); 
+}
+.media {
+    height: 0px;
+    padding-top: 10px;
+    border: .28em solid red; 
+}
+.imgContainer {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(27, 38, 49, 0.3); 
+    background-image: url("../../Icons/lg1.jpg");
+    height: 250px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    cursor: pointer;
+}
+.content {
+    font-size: 17px !important;
+}
+.action {
+    color:  rgba(27, 38, 49, 0.801); 
+}
+.action button {
+    border: 0.05em solid rgba(27, 38, 49, 0.801); 
+    border-radius: 6px;
+    font-size: 12px !important;
+    color:  rgba(27, 38, 49, 0.801); 
+}
