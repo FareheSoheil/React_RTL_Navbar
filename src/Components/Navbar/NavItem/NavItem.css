@@ -1,15 +1,16 @@
 .navItem {
     padding: 20px;
     margin-right: 5px;
-    margin-right:7px;     
+    margin-right: 7px;
     display: inline-block;
     direction: rtl;
     padding: 12px;
     background-color: inherit;
     cursor: pointer;
 }
-.navItem a  {
-    text-decoration:none !important;
+
+.navItem a {
+    text-decoration: none !important;
     color: white;
     padding: 10px;
     border-radius: 6px;
@@ -20,5 +21,5 @@
     color: pink;
     font-size: 19px;
     opacity: .75;
-    transition:  font-size .55s , opacity 0.5s linear;
+    transition: font-size .55s, opacity 0.5s linear;
 }
