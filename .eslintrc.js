@@ -4,12 +4,13 @@ module.exports = {
     parserOptions: { 
         ecmaVersion: 6 ,
         ecmaFeatures: {
-            "jsx": true
+            'jsx': true
         }
     },
     extends: [
         'standard',
-        "plugin:react/recommended"
+        'plugin:react/recommended',
+        'plugin:prettier/recommended'
     ],
     env: {
         browser: true,
@@ -17,10 +18,6 @@ module.exports = {
         es6: true,
         jest: true,
       },
-      plugins: [
-        "react",
-        "import"
-      ],
     rules: {
         'react/prop-types': 0,
       },

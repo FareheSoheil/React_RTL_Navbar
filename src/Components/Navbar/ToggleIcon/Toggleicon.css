@@ -1,10 +1,9 @@
 .toggleicon {
-      display: none;
+    display: none;
 }
 
 @media screen and (max-width: 992px) {
     .toggleicon {
         display: inline-block;
     }
-
 }

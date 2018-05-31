@@ -3,8 +3,8 @@
     padding-bottom: 40px;
     padding-right: 23%;
     height: auto;
-
 }
+
 .cardContainer * {
     font-family: 'samim' !important;
 }
@@ -15,6 +15,5 @@
         padding-bottom: 40px;
         padding-right: 18%;
         height: auto;
-    
     }
 }
