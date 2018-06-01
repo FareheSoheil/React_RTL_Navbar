@@ -1,7 +1,0 @@
-{
-    "presets": [
-        "react-js",
-        "flow"
-    ],
-    "retainLines": true
-}

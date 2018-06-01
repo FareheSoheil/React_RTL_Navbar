@@ -1,11 +1,12 @@
 body {
   font-family: sans-serif;
-  background-color:salmon;
+  background-color: salmon;
 }
+
 a.active {
   background-color: salmon !important;
   color: pink;
-  font-size: 19px;
+  /* font-size: 17px; */
   opacity: .75;
-  transition:  font-size .55s , opacity 0.5s linear;
+  transition: opacity 0.5s linear;
 }

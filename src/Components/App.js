@@ -7,7 +7,7 @@ import Introduction from "./Contents/Introduction/Introduction";
 import Product from "./Contents/Product/Product";
 // import Home from "./Contents/Home/Home";
 import "../Styles/global.css";
-import "../Styles/App.css";
+import "./App.css";
 import "../Styles/samimFont.css";
 
 class App extends React.Component {

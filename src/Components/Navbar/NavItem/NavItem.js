@@ -7,7 +7,9 @@ class NavItem extends React.Component {
     return (
       <HashRouter>
         <div className="navItem">
-          <NavLink to={this.props.url}>{this.props.children}</NavLink>
+          <NavLink to={this.props.url}>
+            {this.props.children}
+          </NavLink>
         </div>
       </HashRouter>
     );
